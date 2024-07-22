@@ -1,0 +1,24 @@
+/***********************************************************************
+ NAME : Yuvraj Singh
+ CLASS : OOP244
+ SECTION : ZBB
+ STUDENT NUMBER : 155580210
+ EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 18 JULY 2022
+WORKSHOP 7 and Milestone-1 
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+In workshop-7 I learned how to inherit a derived class from a base class
+and how to shadow a base class member function with a derived class member
+function. I then learned how to access that shadowed member function that is 
+defined in a base class. I learned how to utilize custom input/output operators
+with these classes.
+In milestone 1 of the project, I was assigned to make three modules, Date, MenuItem 
+and Menu. In the Date module, I had to make sure that the year should be an integer
+between 1500 to 2022, the month should be an integer from 1 to 12 and the day should
+be the from 1 to the number of days that the month enter has. The MenuItem holds the 
+Item in the menu to be selected by the customer. This had to be a private class
+which was only allowed to be accessed by Menu. The Menu was used to display the several items
+selected in the MenuItem.

@@ -1,0 +1,26 @@
+/***********************************************************************
+ NAME : Yuvraj Singh
+ CLASS : OOP244
+ SECTION : ZBB
+ STUDENT NUMBER : 155580210
+ EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 11 JULY 2022
+WORKSHOP 6 
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+In workshop 6, I , learned how to implement a copy constructor and a copy assignment operator.
+I learned how to manage a class with dynamic resources and to use existing objects to create new ones
+or to assign values to existing objects based on pre-existing ones
+I also learned how to implement custom input/output operators in this workshop.
+In part 1 of the workshop, I made a module called Numbers which was responsible for reading several
+double values from a file (one number per line) and hold them dynamically in memory. Then the caller
+application has the option of adding numbers to the collection. This Module can provide information
+about the numbers and display them on the screen in ascending order, can find the largest value, can 
+find the smallest value, can calculate the average of the values in the collection
+In part-2 of the workshop i.e. DIY, I coded a module called Basket which was responsble to hold the 
+information about a fruit basket.
+I faced a problem in the second part of the workshop. My output was matching with the one given
+and I had no compilation errors but while submiting, I got to know about my memory leaks. I immediately
+read the studentoutput.txt and fixed what was wrong with the code.

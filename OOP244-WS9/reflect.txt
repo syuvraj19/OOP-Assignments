@@ -1,0 +1,29 @@
+/***********************************************************************
+ NAME : Yuvraj Singh
+ CLASS : OOP244
+ SECTION : ZBB
+ STUDENT NUMBER : 155580210
+ EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 1 AUGUST 2022
+WORKSHOP 9 and Milestone-3 
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+In workshop 9, I learned how to derive a class with 
+resource from a base class which also includes a dynamic
+cString. I learned the method of how to override a virtual 
+and a non-virtual of the base class. I also learned about
+how to apply the rule of three to the base and the 
+derived class. I also wrote dynamic data from int into 
+date files.
+In milestone 3 of the project, I had to do some modifications 
+to the date module. I had to accomodate the code according 
+to the Seneca Library's policies i.e. it holds two types 
+of publications, (newspapers and magazines) and books.
+Publications are not loaned out to members. Members can 
+check them out and read them in the library. These publications 
+are put back on their shelves at the end of the day.
+The books can be borrowed and returned within 15 days. After 
+15 days, the member will be charged daily for a late 
+penalty. 

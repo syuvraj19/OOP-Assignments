@@ -1,0 +1,23 @@
+/***********************************************************************
+ NAME : Yuvraj Singh
+ CLASS : OOP244
+ SECTION : ZBB
+ STUDENT NUMBER : 155580210
+ EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 25 JULY 2022
+WORKSHOP 8 and Milestone-2 
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+In workshop 8, I learned how to define a pure virtual 
+function.I learned how to code an abstract base class and 
+how to implement behavior declared in a pure virtual 
+function.I can now explain the difference between an 
+abstract base class and a concrete class.
+For the milestone 2, I had to make a mockup application 
+for the Seneca Library Application. I had to make the 
+mentioned in a module called LibApp. This module would give
+a demo of how the application for Seneca Library would work.
+I had to print the messages instead of actually performing the
+tasks. I also used the Menu module in this milestone.

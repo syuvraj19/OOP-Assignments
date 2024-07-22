@@ -1,0 +1,24 @@
+/***********************************************************************
+ NAME : Yuvraj Singh
+ CLASS : OOP244
+ SECTION : ZBB
+ STUDENT NUMBER : 155580210
+ EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 8 AUGUST 2022
+MILESTONE 5 and WORKSHOP 10
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+In workshop 10, I have learned to code function templates and 
+implement calls to function templates.
+
+In milestone 5, I first added all the latest versions of my modules 
+of the earlier milestones. I had to create two new modules for the 
+milestone this time. First of them was the PublicationSelector Module
+and the second one was LibApp Module.
+
+This was the toughest workshop and milestone of the course. It was a time 
+consuming one and I faced a bit of difficulties as well. In the areas where
+I found myself struggling, I went to the lecture again and understood the 
+concepts again.

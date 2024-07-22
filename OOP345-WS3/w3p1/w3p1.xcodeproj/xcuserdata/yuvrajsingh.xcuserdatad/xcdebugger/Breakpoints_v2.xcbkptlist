@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "EBE53CB9-FEF9-4D2F-97E1-B13D1825FEC6"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6F82E7AE-275A-4DFF-BD52-0A551DFCE3A3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "w3p1/Queue.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "pop()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6F82E7AE-275A-4DFF-BD52-0A551DFCE3A3 - 9e7c3cd0192989a4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;long, 100ul&gt;::pop()"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "6F82E7AE-275A-4DFF-BD52-0A551DFCE3A3 - f7bab8418e1e48cb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;double, 100ul&gt;::pop()"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "6F82E7AE-275A-4DFF-BD52-0A551DFCE3A3 - 8c9c7bb88aa38e30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;sdds::Dictionary, 100ul&gt;::pop()"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "35C28B46-0B2F-40AB-BBA7-40DD31AD2790"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "w3p1/Queue.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "operator[](ind)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "35C28B46-0B2F-40AB-BBA7-40DD31AD2790 - 7a550b7ddb8a5321"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;double, 100ul&gt;::operator[](unsigned long)"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "35C28B46-0B2F-40AB-BBA7-40DD31AD2790 - c450984d6ce90e2c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;long, 20ul&gt;::operator[](unsigned long)"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "35C28B46-0B2F-40AB-BBA7-40DD31AD2790 - dadea5919043545c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;long, 100ul&gt;::operator[](unsigned long)"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "35C28B46-0B2F-40AB-BBA7-40DD31AD2790 - f9fb4b2972c6e4f2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;double, 30ul&gt;::operator[](unsigned long)"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  uuid = "35C28B46-0B2F-40AB-BBA7-40DD31AD2790 - ccff58cac31cbabb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;sdds::Dictionary, 50ul&gt;::operator[](unsigned long)"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  uuid = "35C28B46-0B2F-40AB-BBA7-40DD31AD2790 - e586f3b088bc83e8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "sdds::Queue&lt;sdds::Dictionary, 100ul&gt;::operator[](unsigned long)"
+                  moduleName = "w3p1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yuvrajsingh/Desktop/college/OOP345/w3/w3p1/w3p1/Queue.h"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "81"
+                  endingLineNumber = "81"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E70292F0-D73F-4A0F-90CE-C14A73BA89FF"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "w3p1/Queue.h"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

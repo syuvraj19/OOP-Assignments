@@ -1,0 +1,94 @@
+*****************************************************************************
+                          Workshop - #1 (Reflection)
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+
+1)The difference between internal and external linkage citing examples from your code.
+
+Ans-1) In this workshop, I was able to distinguish between external and internal linkage
+citation. For starters, external linkage can be employed in external modules other than 
+stated files. Use the "extern" keyword to declare external linking. 
+
+For example, In this workshop, I declared the g_taxrate, g_discount variable in carads.h 
+file to use one global variable in the w1_p2.cpp
+
+extern double g_taxrate;
+extern double g_discount;
+
+In contrast to external linking, internal linkage can only be used inside declared in a 
+scope. As a result, the internal linkage is not accessible to external files. The static 
+keyword is used to declare internal linking.
+
+For example, static keyword used in display function to store the counter of how many 
+times we call the display function
+
+void Cars::display(bool reset)
+    {
+        static int count = 0;
+        if (reset)
+        {
+            count = 0;
+        }
+        count++;}
+
+2)what are static variables and how are they useful in your solution.
+
+Ans 2) I used static keyword to implement “count” variable in the display function. I 
+used the static keyword because I want to store the number of times display function was 
+called in total. As a result of using it as a static variable, the counter variable 
+defined with static keyword able to maintain the value how many times its been incremented 
+until the main function ended even after the function call scope.
+
+3)The changes that you made in upgrading your Cars class in part 2.
+
+Ans 3) The changes I made in part 2 of this workshop, in the first part I stored the brand of 
+car as array of given length in the description, but converted it to a pointer type. I had 
+done this to maintain the proper size without wasting memory in this area. However, 
+By doing this I have to be careful about the memory leaks while using pointer types. 
+Then, I tested to see if the pointer type variable was nullptr before overloading other 
+descriptions. At the end, I defined a destructor to deallocate the memory.
+
+As a result, I checked whether the pointer type variable is nullptr or not because to overwrite the other 
+descriptions with it. Finally, I created the destructor to delete the memory safely.
+
+
+4) TODO: explain in the reflection what is the effect of the keyword "constexpr".
+
+Ans 4) constexpr indicates that the value, or return value, is constant and, where possible, 
+is computed at compile time. As the expression is computed at compile time it consumes less 
+memory and reduces run-time.
+
+The constexpr int MAX_CARS = 100; is set in the w1_p1.cpp it is defined as a constant integer.
+
+
+5) Implement the rule-of-3. Explain in the reflection why these functions are necessary 
+and in what situation a class must implement them.
+
+Ans 5) Implement the rule-of-3:
+The rule of three is a rule of thumb in C++ that claims that if a class defines any of 
+the following then it should probably explicitly define all three:
+ • destructor
+ • copy constructor
+ • copy assignment operator
+They are named as : “Special member function”
+
+1. Constructor - It is invoked at the creation-time and we use it to execute any preliminary 
+logic and set the object to an empty state. 
+
+For example:-   Cars();
+
+
+2. Copy assignment operator - It contains the logic for copying data from an existing object 
+to an existing object. 
+
+For example:-   Cars& operator=(const Cars&);
+
+
+3. Destructor - Every object invokes this before going out of scope. This doesn't have any 
+return values or parameters.
+
+For example:-  ~Cars();
+
+

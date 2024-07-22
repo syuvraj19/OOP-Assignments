@@ -1,0 +1,32 @@
+/***********************************************************************
+ NAME : Yuvraj Singh
+ CLASS : OOP244
+ SECTION : ZBB
+ STUDENT NUMBER : 155580210
+ EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 22 JUNE 2022
+WORKSHOP 5
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+In workshop 5 this time I learned how to define and create binary 
+member operators.I also learned  to define and create various type 
+conversion operators,unary operators,helper binary operator between 
+classes and helper operators between a primitive type and a class.
+In the Lab I implemented two modules called Chapter and Book.
+Chapter class is being used by the Book class in a composition pattern.
+In part 2 DIY I had to declare four private data members. Those were:
+1)An array to hold the name of a hero, not exceeding MAX_NAME_LEN characters.
+2)A Pointer of type Power that will hold a dynamic set of powers a hero 
+may have.
+3)An integer variable for the number of powers a hero may have.
+4)An integer variable for the power level of a hero.
+
+All this had to be a calculated value. which was calculated as
+Sum of rarity of all the heroes' powers multiplied by the total count of powers.
+This time I only had a few compilation errors because I wrote some code at the 
+wrong place, overall everything else was okay.
+
+
+

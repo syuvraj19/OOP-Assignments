@@ -1,0 +1,24 @@
+/***********************************************************************
+ NAME : Yuvraj Singh
+ CLASS : OOP244
+ SECTION : ZBB
+ STUDENT NUMBER : 155580210
+ EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 13 JUNE 2022
+WORKSHOP 4
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+The workshop 4 was a tough one. I learned about constructers, 
+destructors in this whole workshop. I learned about creating constructors 
+and destructors. In the part 1 i.e. the lab, I created a module to collect 
+the information from the customers about the cars. I created a default 
+constructor called car which initialised the member variable by calling the resetInfo().
+In the part 2 of the lab, I created both the constructors and destructors again to 
+handle the empty state of the robot and handle any potential memory leak respectively.
+Dealing with constructors and destructors was a tough task, I came across memory 
+leaks again and again. I then again read the course notes so that I could verify that 
+I know that I am doing all te steps correctly while creating them. After finding what I 
+was doing wrong, i got to know that I created the deconstructor wrong. So, I debugged my 
+code again and after that my code was working fine. 

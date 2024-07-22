@@ -1,0 +1,30 @@
+/***********************************************************************
+NAME: Yuvraj Singh
+CLASS : OOP244
+SECTION : ZBB
+STUDENT NUMBER : 155580210
+EMAIL : yuvraj-singh5@myseneca.ca
+DATE CREATED ON : 06 JUNE 2022
+WORKSHOP 3
+
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+***********************************************************************/
+
+While doing the workshop 3 I learned about using member functions to 
+query and change the state of an object. I learned to use standard 
+library to format data inserted in to the output stream. During this 
+workshop I learned how to define a class type and how to privatize the data within it.
+In the part 1 of the lab I was required to declare three private data 
+types and implement a set of public member functions i.e. setEmpty(),
+createArmy(), updateUnits(),checkNationality(), checkCapacity(), 
+checkPower(), is Empty(), isStrongerThan()and two global functions battle(), 
+and display().
+In part 2 of the workshop i.e LAB, I had to make a program which receives 
+sample values  and creates a bar chart based on it. 
+I faced a problem in the lab since I forgot to make a member variable to 
+hold the fill character. When I came across a problem in the output I 
+immediately started to walkthrough my code and came across the problem 
+mentioned above. I, then created a variableto hold the fill character and ran the 
+code once again which helped solve the problem and successful submission of the workshop.
+

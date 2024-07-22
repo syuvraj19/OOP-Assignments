@@ -1,0 +1,7 @@
+In this workshop, I, learned how to inherit a derived class from a base class.
+I also learned how to shadow a base class member function with a derived class member function
+and how to then access that shadowed member function that is defined in a base class.
+I also learned how to utilize the custom input/output operators with the classes.
+In lab 1 I made a class called MemberParliament that was responsible for holding the information
+about a member of the parliament. I made another module called Minister which was responsile for holding
+the information about the crown in the Canadian Cabinet.
