@@ -1,0 +1,53 @@
+/*
+*****************************************************************************
+                          Workshop - #5(reflect)
+
+ 
+ I have done all the coding by myself and only copied the code that my
+ professor provided to complete my workshops and assignments.
+
+*****************************************************************************
+*/
+
+
+This workshop taught me how to work with lambda expressions, functors, and 
+functions to pointers. I also discovered the std::string.replace() function, 
+Design and code a templated class that allocates and deallocates dynamic memory 
+And I also learned code a member function that receives the address of a 
+callback function to execute and throw exceptions of different types.
+
+Q1. The difference between the implementations/utilizations of a functor and a 
+lambda expression. When is appropriate to use each one?
+
+A1. A function object that is only used in a local area of an application 
+(that is, within a function) can be represented by a lambda expression. They 
+are implemented using the: "return type Identifier = [access](Parameters){ logic} "
+and act strictly as functions. Whereas a C++ functor (function object) is a class 
+or struct object that can be called like a function.While a lambda is just a 
+function a functor is a class with the ability to act like a function. 
+
+Q2. The constructor for SpellChecker generates an exception in certain conditions.
+How would you change your code to achieve the same result, but without exceptions 
+(both on the constructor and on the client side)? Compare the two solutions.
+
+A2.If an invalid file name was passed to the  SpellChecker's constructor , I would
+change the code to return SpellChecker to a safe empty state. This prevents it 
+from modifying any strings passed to it after the constructor is finished.
+
+
+Q3. The classes Movie and Book contain almost identical logic in loading data from
+the file. How would you redesign the classes in order not to duplicate that logic?
+
+A3. In this case we can create a base class as they have identical logic and name 
+it pleasure or entertainment and we could inherit movie and book classes from it, 
+by doing this both the classes can have same logic without duplication.
+
+
+Q4. The classes Movie and Book are instantiated from the main() function using a 
+custom constructor, but they also contain a default constructor. Is the default 
+constructor necessary? Could you remove it? Justify your answer.
+
+A4. As we didn't want to fill the books up right from it's initialization then it 
+would be good to have a constructor in order to put them in a safe empty state. 
+That's why a default constructor is not necessary but it is a good practice to have it.
+

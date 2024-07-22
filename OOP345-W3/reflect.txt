@@ -1,0 +1,20 @@
+/*
+*****************************************************************************
+                          Workshop - #3(reflect)
+ 
+ I have done all the coding by myself and only copied the code that my
+ professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+During this workshop, I was able to practice and develop the template skills I learned last semester. To be honest, I was faced a lot of trouble during this workshop. However, as I dealt with it, I became closer to the template, and I got a deeper understanding of it. In this workshop, I felt complicated in implementing specializing in particular. I understood how to design and code a class template which was involved in this and was new to me. Not only that, but also I learned a lot about deriving a templated class from another templated class. 
+
+Also learned how to specialize a member function of a templated class to process a particular type and how to derive a templated class from another templated class. .My doubts about the template a class variable were also answered by the completion of this workshop. As a result, the fundamental understanding of specializing a templated class variable for a specific type was revised.
+
+We define the class variable out side the class definition because this is a special case. we need to specialize it. Only the generic rules and values can be defined in the class template. However, we can define a class variable after we instantiate a class template.
+
+In this workshop, I did not use any other cpp file except the main.cpp file because I have used template class at all header files. In other word, I have defined all function in only every header files. The reason is simple, if, as previous workshops, I declare a template class in the header file and defines functions in the cpp file, the compiler cannot compile because it does not know the data type. A template is neither a class nor a function. Therefore, the declaration and definition of the template should be implemented at once so that the compiler can read it.
+
+
+
+

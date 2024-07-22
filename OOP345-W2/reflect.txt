@@ -1,0 +1,64 @@
+*****************************************************************************
+                          Workshop - #2 (Reflection)
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+
+Q1.The reason for the significant time difference between the copy and move operations.
+
+A1.In C++ copy constructors use l-value references and copy semantics, copy semantics 
+means copying the data of an abject to another object, whereas in move semantics we 
+use move constructors which use r-value references and move semantics, move semantics 
+involves pointing to the already existing object in the memory.
+
+In copy semantics, when a new object is created and is it is getting assigned to the 
+r-value firstly a temporary object is created, and then that temporary object is used 
+to assign the values to the object in other words, copy constructor maintains the 
+original data and deep copies all of the data one by one. In this whole process copy 
+constructor is called several times which increase the overhead and decreases the 
+efficiency whereas in move semantics, the move constructor receives the address value of 
+the original data and allows the source to be left in a invalid state, As a result, the 
+moving constructor is fast in terms of speed because unlike the copy constructor, it does 
+not reallocate memory.
+
+
+Q2.Describe approach taken to read the input file (tennis-data.csv) in the TennisLog 
+constructor and populate the dynamic array. Is there any way to avoid rereading the file?
+
+A2.In this workshop, I had an opportunity to use the file input and output library 
+"fstream" which I learned in last semester. In this workshop I also used the "getline" 
+function to read the file line by line and then store the value in the string type variable.
+
+As in this workshop, we have to get the total number of lines in file, we have to read 
+the file twice So I used the "seekg" function to read the same file twice and got the 
+count of the total number of lines in the file, the file position indicator would have 
+reached the end of the file. Because of this I have to move the file position indicator 
+to the first place to read the same file again.
+
+Q3.In the links above to chrono library, you were directed to use a steady_clock 
+to take a timestamp. Do some research and explain the difference between a 
+steady_clock and a system_clock. Are they the same? When should each one be used?
+
+A3. The C++11 chrono header file provides three standard clocks that could be used :
+
+system_clock - this is the real-time clock used by the system.
+
+steady_clock - this is a monotonic clock that is guaranteed to never be adjusted.
+
+high_resolution_clock - this is a clock with the shortest tick period possible on 
+the current system;
+
+The difference between steady_clock and a system_clock is that, If you want to measure
+the time taken by a certain piece of code for execution, you should generally use the 
+steady_clock, which is a monotonic clock that is never adjusted by the system. As, the
+steady_clock and high_resolution_clock have the same characteristics, both are 
+non-adjustable clocks with nanosecond precision. 
+
+On the other hand, the system_clock is the real-time clock used by the system, the main 
+differentiator between system_clock and other two clocks is that system_clock is adjustable 
+and it has only microsecond precision.
+
+
+
+

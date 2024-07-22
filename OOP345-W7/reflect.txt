@@ -1,0 +1,62 @@
+/*
+*****************************************************************************
+                          Workshop - #7(P2)
+ 
+*****************************************************************************
+*/
+
+I had an opportunity to use various STL functions through this workshop. 
+I learned about how to copy data from a file into a sequential container,
+Also use the numeric library to accumulate data values, use a lambda 
+expression to specify an operation on each value in a data set also 
+used the algorithm library to sort data values.
+
+First, in this workshop, we used the vector to store crime structures in 
+the main variable m_song like “std::vector<Song> m_song;”. I had to read 
+the file line by line and save the stored data to the crime structure and 
+add it to the vector. In this process, vectors helped store new line 
+structures while variably increasing the size, even though I did not 
+initially set the size. Obviously, there is a difference between a 
+vector and a list. The way to access elements in containers is different 
+and functions are different. However, in this workshop, I did not 
+significantly use the characteristic of the list such as add and delete 
+elements quickly. If I use the vector or list container, I must include 
+<vector> and <list>. 
+
+Lastly, I use several functions in <algorithm>. It used a sort algorithm.
+The reason was to align a vector container in the order the user wanted. 
+The iterator representing the range of elements was used, and the expression 
+of how to align them used the Lambda formula. The for_each feature was also 
+used to run something in the same way to each element while circulates the 
+vector sequentially.
+
+Moreover, I used copy_if. "std::copy_if(m_crimes.cbegin(), m_crimes.cend(), 
+temp.begin(), [=](Crime c)". The reason was to find only the of the crimes 
+that the user wanted in the vector container and save them in the new 
+container, List. But, I used the iterator, another STL function here. I 
+included the <iterator> to use back_inserter. The reason is that copy_if 
+does not automatically increase the size of the container to copy elements,
+such as push_back. Therefore, to save crimes list structures to a new list 
+via copy_if, the list must be sized first. However, back_insertor automatically 
+increases the size like push_back, allowing elements to be inserted into 
+the end of the container. 
+
+There are various benefits to using the STL algorithm instead of the standard 
+loop function. First, code may be written inline. Inline code is more readable 
+and this makes it highly useful for code review and debugging. And if I hadn't 
+known about the STL function, I would have done it by implementing all the 
+functions, such as sort and copy if, line by line, but the STL function solves 
+it all at once. That is, it increases code generation productivity significantly.
+
+In the process of receiving a file name and instantiating the CrimeStatistics 
+class, an error will occur if the file name is incorrect. At this time, it 
+is very important to detect errors and deliver messages to users. The method 
+that can be used is try-catch. Try reading the file using the file name the 
+user entered, and if the file does not open, use throw to send an error message.
+
+
+
+
+
+
+

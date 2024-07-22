@@ -1,0 +1,26 @@
+// Name: yuvraj singh
+// Seneca Student ID: 155580210
+// Seneca email: yuvraj-singh5@myseneca.ca
+// Date of completion: 30/11/2022
+//
+// I confirm that I am the only author of this file
+//   and the content was created entirely by me.
+
+I think the milestone I completed this time was the most difficult project 
+during the CPA course. First, I needed a very long time to understand the 
+overall logic. Frankly, I didn't find it difficult to complete Milestones 
+1 and 2 without a complete understanding of Logic. However, in Milestone 3,
+I learned the most important thing. It is very dangerous and difficult to 
+proceed without knowing the whole process while working on a project. As a 
+result, I had to review 1 and 2 as I progressed to Milestone 3, and I was 
+able to implement 3 by understanding the overall process.
+
+Throughout this milestone, I got used to STL containers and algorithms a lot 
+and got used to them. And it was fun to implement the link-list algorithm 
+using the container. Apart from that, the challenge of using STL algorithms 
+instead of basic a loop statement, such as for or while, in LineManager 
+constructor interested me. As a result of a lot of practice and study at the 
+last workshop, this challenge was not that difficult. Thanks to this, there 
+was an opportunity to practice implementing using STL algorithms not only in 
+the LineManager constructor but also in other functions. For example, "run" 
+or "display" function in LineManager.cpp
