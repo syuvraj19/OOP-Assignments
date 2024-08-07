@@ -1,0 +1,36 @@
+/*
+*****************************************************************************
+                          Workshop - #6 (P2)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date       : 11/07/22
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+
+In this workshop I learned how to implement the copy assignment operator and 
+copy constructor and also revised the concept of dynamic memory allocation, 
+these help in managing the dynamic resources of a class and prevent memory 
+leaks, also had a good understanding of copying dynamic members of a class 
+by the deep copy rather than using shallow copy.
+
+The copy constructor used in the code was- Basket::Basket(const Basket &CopResrc)
+
+One thing that I found by an error is that if we don't do deep copy and go 
+with shallow copy on member variables then if we change the value of one 
+variable, any other variable will be changed. Also got a good understanding 
+fstream objects where ifstream is used for getting data from the file while 
+ofstream is used to put data to the file.
+
+The errors I faced in this lab were some syntax errors like not adding 
+semi-colons at the end of a few statements and an implementations error when 
+I forgot to include the header file in the basket.cpp and other errors were 
+related to memory leaks and memory allocation which i got to know in the 
+Valgrind memory check when running code on matrix, the syntax errors were 
+identified by and corrected by IntelliSense and adding of header file in the 
+basket.cpp and memory leaks were identified by Valgrind on matrix and were
+ fixed by figuring out the missing delete[] key when deallocating memory in between.

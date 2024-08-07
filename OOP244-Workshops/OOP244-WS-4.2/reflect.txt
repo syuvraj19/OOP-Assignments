@@ -1,0 +1,28 @@
+/*
+*****************************************************************************
+                          Workshop - #4 - reflection
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Section    : OOP-244-ZBB
+
+Authenticity Declaration:
+I have done all the coding by myself and only copied the code that my
+professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+
+Answer- The topics that I learned in the workshop were-
+
+1.how to create and overload constructor- constructors are special methods in class 
+That are called by default when a class object is created. Depending on the number and type of arguments passed, a function Object() { [native code] } is called. Arguments must be passed to the compiler when creating the object to tell it which function Object() to call. In our case it was given Constructor with 4 arguments to initialize the robot information in the following order:
+location, battery, brush, active. It is the cleanerBot constructor in cleanerBot 
+class. If we put a different list of arguments in the class keeping the name same, 
+This concept is known as overloading constructors.
+
+2.desctuctors and there use- Destructor is also a special member function like constructor. Destructor destroys the class objects created by constructor. Destructor
+ has the same name as their class name preceded by a tiled (~) symbol. In our workshop it was ~CleanerBot(); in the cleanerbot class.
+
+
+Problems I faced doing the workshop- handling constructors with various arguments along with first time working with deconstructed, also got to know that deconstructed help preventing memory leak. The getbattery or the battery checker function to check the percentage is less than 30% was a tricky one to code under the report function also making a sorting function inside it to display the list of bot in descending got a lot of errors but eventually all worked out with a nested for while loop. In the start I forgot about using destructor and was getting memory leak instead of which I was using  delete[] pointer-variable; in removing but in end used destructor.

@@ -1,0 +1,27 @@
+***************************reflect-Workshop-2****************************
+  Name          : Yuvraj singh
+  Student Number: 155580210
+  Student Email : yuvraj-singh5@myseneca.ca
+  Section       : OOP244-ZBB
+  Date completed: 30th may 2022
+ 
+  I have done all the coding by myself and only copied the code
+  that my professor provided to complete my workshops and assignments.
+
+***************************reflect-Workshop-2****************************
+
+Answer- After completion of this workshop I have understood the use and 
+importance of overload function and memory deallocation, overload functions 
+simply means different function that happens to have the same name, matter 
+of fact I tried to use it in part-1 and had created read function for student 
+name, id and grade and named them same as read,The determination of which 
+function to use for a particular call is resolved at compile time so it is 
+really convenient, unfortunately wasn't able to submit the work on time.
+
+The next thing was memory deallocation which simply means to remove the 
+sets of allocated memory from the system after the code has been processed 
+to free up the random access memory(RAM), deallocation has been used in both 
+the parts, in the DIY it is use to free up the space that has been allocated 
+by employee name reservation in memory, you can check the code for reference. 
+Deallocation helps preventing memory leaks and when working on big projects 
+also helps to prevent system failure.

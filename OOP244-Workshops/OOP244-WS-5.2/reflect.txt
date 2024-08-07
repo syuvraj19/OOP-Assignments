@@ -1,0 +1,48 @@
+/*
+*****************************************************************************
+                          Workshop - #5 (P2)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date    : 2022/06/23
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+In this workshop I learned how to define typeconversion operators, working 
+of various member operators and helper binary operators. Also learned to define
+and create helper operators between a primitive type and a class
+
+The number of operands decides the type of operator. The following
+are the types:
+1. Unary operator which has only one operator and operand
+2. Binary operator which has one operator and two operands
+3. type conversion operator which can define implicit conversion because it has no arguments.
+4. Binary Helper operators which are in a relation but are defined outside the class.
+    
+
+A unary operation consists of one operator and one operand.  The left 
+operand of a unary member operator is the current object.  The operator
+does not take any explicit parameters. Examples are prefix postfix increment,
+decrement operators (++), (--), etc. 
+Structure is, return_Type operator_symbol (); 
+ 
+A binary operation consists of one operator and two operands. 
+In a binary member operator, the left operand is the current 
+object and the member function takes one explicit parameter: 
+the right operand. Arithmetic operations like add, subtract, 
+multiply and divide are binary operations. They have only one 
+argument and another one is decided from the object, the structure is, 
+operator type() const;
+
+
+Type conversion operators define implicit conversions to different 
+types, including fundamental types. 
+structure is, operator type() const;
+
+Helper operators are global functions that overload operators.
+
+
+
