@@ -1,0 +1,51 @@
+/*
+*****************************************************************************
+                          Workshop - #10 (Reflection)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date       : 7/08/2022
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+Through the workshop 10,I learned very easy and important topic which is function 
+templates. The information I learned about writing a templated class was interesting.
+I must admit that this workshop was the one where I occasionally made mistakes. 
+I was delighted to discover that my code was finally working. I also learn how to 
+define the kind of implement in a call to a templated class throughout this training. 
+I also learn about a templated class's constant numerical parameter. Knowing that 
+templates are unique functions that can work with generic types is beneficial.
+This allow us to create a function template whose functionality can be adapted
+to more than one type or class without repeating the entire code. while coding my 
+program i take help from my notes as this topic is explained very well.
+
+Also revised, how to Derive a class with resource from a base class which also 
+includes a dynamic cString and Override virtual and non-virtual methods of the base
+class. Moreover, Apply the rule of three to the base and the derived class and 
+handling text files and conversion to read and write dynamic data from int into date files.
+
+The difficult part was to combine the the 3 parameter and 4 parameter template function 
+with a search stream that matches the key values with that of array items and The find 
+function goes through all the elements of the array of objects checks if the keys are 
+comparable to the array object (use the overloaded comparison operator). And in the 
+loadcollection function template, this function requires a reference to both an object 
+of the same type and a collection (of template type 1). The collections class's 
+overloaded += operator will then be invoked in order to add the new item and at the end 
+returns a constant collection reference.
+
+Some of the common errors I faced like some syntax errors and errors like not including 
+the header files created some problems but were fixed at the end and It took me some time
+ to grasp the concept of template function, their syntax and their functioning, how they 
+are different from the function used previously and how to implement them in templatefunctions.h 
+and the main problem I face in handling the no. of parameters used in template functions but 
+that was given as an example in lecture and also after reading all the given files it was 
+very much clear how to proceed with search function and overloading comparison operator at 
+instances. some errors with the difference of definition between Override virtual and non-virtual 
+methods but cleared out from previous lecture that the virtual keyword can be used when 
+declaring overriding functions in a derived class, but it is unnecessary; overrides of 
+virtual functions are always virtual. Virtual functions in a base class must be defined 
+unless they are declared using the pure-specifier.
+

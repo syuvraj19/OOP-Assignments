@@ -1,0 +1,30 @@
+/*
+*****************************************************************************
+                          Workshop - #7 (P2)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date       : 17/07/22
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+
+I learned the Inheritance of a derived class from a base class while completing this workshop. Moreover, I understood how to use custom input/output operators with the classes. Furthermore, accessing shadowed member function that is defined in a base class. 
+
+Also, shadowing a base class member function with a derived class member function 
+gave me a clear explanation of the topics.
+One thing that I found by an error is that if we don't do deep copy and go 
+with shallow copy on member variables then if we change the value of one 
+variable, any other variable will be changed. Also got a good understanding 
+fstream objects where ifstream is used for getting data from the file while 
+ofstream is used to put data to the file.
+
+
+Problems faced :
+The errors I faced in this lab were related to memory leaks and memory allocation which i got to know in the Valgrind memory check when running code on matrix, the syntax errors were 
+identified by and corrected by IntelliSense and adding of header file in the 
+basket.cpp and memory leaks were identified by Valgrind on matrix and were
+ fixed by figuring out the missing delete[] key when deallocating memory in between.

@@ -1,0 +1,32 @@
+/*
+*****************************************************************************
+                          Workshop - #8 (reflect)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date       : 24/07/2022
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+In this workshop, I learned how to define a pure virtual function and how to 
+code an abstract base class and implement behaviour declared in a pure virtual
+function. Moreover, learned how to create a concrete class that derives from a 
+pure interface abstract base class.
+
+Also learned the difference between an abstract base class and a concrete class 
+that is, An abstract base class contains one or more pure virtual functions and 
+has no implementation while a concrete class has implementations in all its 
+member functions.
+
+Also identified the functions that shadow functions of the same name in the 
+solution the functions are- bool credit(double), bool debit(double), void monthEnd(),
+and void display(std::ostream&) const.
+
+Some of the common errors I faced like some syntax errors and errors like not 
+including the header files created some problems but were fixed at the end and 
+some errors with the derivation of the base class and derived class and the type 
+of derivations also handling the diamond problem using the virtual keyword and 
+creating a concrete class by deriving from a pure interface abstract base class. 

@@ -1,0 +1,36 @@
+/*
+*****************************************************************************
+                          Workshop - #9 (Reflection)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date       : 29/07/2022
+
+I have done all the coding by myself and only copied the code that my professor
+provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+In this workshop, I learned how to Derive a class with resource from a base class
+which also includes a dynamic cString and Override virtual and non-virtual methods
+of the base class. Moreover, Apply the rule of three to the base and the derived
+class and handling text files and conversion to read and write dynamic data from 
+int into date files.
+
+The rule of three (also known as the law of the big three or the big three) is a 
+rule of thumb in C++ that claims that if a class defines any of the following then 
+it should probably explicitly define all three: destructor, copy constructor and 
+copy assignment operator
+
+With the virtual keyword on the base class method and the override keyword on the 
+method in the derived class, both methods are said to be virtual. Methods that don't 
+have either the virtual or override keywords, or that have the new keyword, are said 
+to be non-virtual.
+
+Some of the common errors I faced like some syntax errors and errors like not 
+including the header files created some problems but were fixed at the end and 
+some errors with the difference of definition between Override virtual and non-virtual 
+methods but cleared out from previous lecture that the virtual keyword can be used when 
+declaring overriding functions in a derived class, but it is unnecessary; overrides of 
+virtual functions are always virtual. Virtual functions in a base class must be defined 
+unless they are declared using the pure-specifier.
