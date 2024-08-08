@@ -1,0 +1,49 @@
+/*
+*****************************************************************************
+                          Workshop - #6(reflect)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date       : 6/11/2022
+ 
+ I have done all the coding by myself and only copied the code that my
+ professor provided to complete my workshops and assignments.
+*****************************************************************************
+*/
+
+In this workshop I have practices how to use STL containers, also array class
+even though using array class was pointless. More practice on error handling,
+and polymorphic classes where we have to inherit something. I also used 
+iterators and range-based for statements in some functions. Using these two, 
+I could easily access the data in the container object I created. 
+
+I used vector container in Autoshop.h and declared type as pointer type in 
+abstract class Vehicle. As the vehicle class is an abstract class it cannot 
+be derived dynamically, so instead of that the classes which are being inherited 
+from the vehicle class are stored dynamically, I made the appropriate class 
+objects according to their types, which I stored in a vector container and could 
+be used until the application was terminated, as after it I had to delete all 
+classes of memory one by one in the container to avoid memory leaks, so to do 
+that I have to cancel the memory allocation because it is a dynamically generated
+class object and it was a vector container that stores it.
+
+I retrieved the necessary information by reading the file line by line and 
+cutting out the necessary part, I also used the try-catch to catch the error 
+messages as sometimes the data was wrong or there was no data So I used 
+try-catch in this workshop.Throw an error message and terminate the function 
+where Catch catches the message thrown when it encounters an error while 
+proceeding with the function.It is important to note that the type of throw 
+and catch must be the same. Another solution can be the use of Boolean type, 
+Assuming the default value is true, the function returns false if it encounters
+ an error. If false is returned, it is likely that solution will be implemented 
+by printing error messages. If the class is assigned dynamically because the 
+type is correct, and an error occurs in the stage of finding condition, a 
+solution must be implemented to delete the generated object again.
+
+It is impossible to use the type of list and vector as <sdds::Vehicle> instead
+of <sdds::Vehicle*>. It is because vehicle class is an abstract class and cannot 
+be dynamically allocated and create instance objects, That is why I use the pointer
+type as <sdds::Vehicle*>. This allows the creation of instance objects of derived 
+classes inherited from the Vehicle class, and then stored them in a vector or list 
+of Vehicle*types.
+

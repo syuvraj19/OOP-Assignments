@@ -1,0 +1,40 @@
+/*
+*****************************************************************************
+                          Workshop - #4(P2)
+Full Name  : yuvraj singh
+Student ID#: 155580210
+Email      : yuvraj-singh5@myseneca.ca
+Date       : 09/10/2022
+ 
+*****************************************************************************
+*/
+
+In this workshop I learned to create a custom container class that is in a composition 
+relationship with another class. Since this class will contain an array of pointers, 
+the rule of 5 (constructor, destructor, copy constructor/assignment, move constructor/assignment) 
+had to be kept in consideration throughout this workshop. 
+
+This workshop, refreshed me on how to read lines from a file and parse them into string 
+objects based on some simple rules.and I don't have to use strcpy,strcmp functions for 
+string object and I also learned how to use string related functions such as find, substr,
+Stoi, erase as mentioned in the workshop requirements.
+
+We are already familiar with inheritance and parametric polymorphism between classes,
+but in this workshop we also used the different types of relationships that exists according 
+To different degrees of ownership between classes that can be represented by composition, 
+aggregation and association. 
+
+The difference between composition and aggregation are-
+
+Composition:
+1. Type of relationship - "part of"
+2. Association type - Strong
+3. In composition the cannot exist independently of the parent.
+
+Aggregation:
+1. Type of relationship - "has-a"
+2. Association type - Weak
+3. In aggregation there exhibit a relationship where a child can exist independently of the parent.
+
+
+

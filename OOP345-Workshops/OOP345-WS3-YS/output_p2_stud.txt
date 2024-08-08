@@ -1,0 +1,188 @@
+Script started on Sun 02 Oct 2022 11:51:07 PM EDT
+==238861== Memcheck, a memory error detector
+==238861== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==238861== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==238861== Command: ws
+==238861== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line:
+--------------------------
+  1: ws
+--------------------------
+
+******************************************************
+* Testing the Queue of Integers                      *
+******************************************************
+Queue size: [7]
+----------------------
+| Dictionary Content |
+----------------------
+22
+1
+455
+90
+455
+6
+43
+----------------------
+Item [0]: 22
+Item [5]: 6
+Item [9]: 0
+******************************************************
+
+******************************************************
+* Testing the UniqueQueue of Integers                *
+******************************************************
+UniqueQueue size: [6]
+----------------------
+| Dictionary Content |
+----------------------
+22
+1
+455
+90
+6
+43
+----------------------
+Item [0]: 22
+Item [5]: 43
+Item [9]: 0
+
+----------------------
+| Testing Pop		   |
+----------------------
+
+Popped Item: 22
+----------------------
+----------------------
+| Dictionary Content |
+----------------------
+1
+455
+90
+6
+43
+----------------------
+******************************************************
+
+******************************************************
+* Testing the Queue of Floats                        *
+******************************************************
+Queue size: [6]
+----------------------
+| Dictionary Content |
+----------------------
+34.556
+3333.33
+122.55
+3333.33
+678.54
+3333.34
+----------------------
+Item [0]: 34.556
+Item [5]: 3333.34
+Item [9]: 0
+******************************************************
+
+******************************************************
+* Testing the UniqueQueue of Floats                  *
+******************************************************
+UniqueQueue size: [5]
+----------------------
+| Dictionary Content |
+----------------------
+34.556
+3333.33
+122.55
+678.54
+3333.34
+----------------------
+Item [1]: 3333.3303
+Item [4]: 3333.3389
+Item [9]: 0.0000
+
+----------------------
+| Testing Pop		   |
+----------------------
+
+Popped Item: 34.5560
+----------------------
+----------------------
+| Dictionary Content |
+----------------------
+3333.3303
+122.5500
+678.5400
+3333.3389
+----------------------
+******************************************************
+
+******************************************************
+* Testing the Queue of Dictionary Objects            *
+******************************************************
+Queue size: [9]
+----------------------
+| Dictionary Content |
+----------------------
+                dome: a rounded vault forming the roof of a building or structure.
+           pollution: An introduction into the environment of a substance that has harmful effect
+               slide: a structure with a smooth sloping surface for children to slide down.
+            complete: having all the necessary or appropriate parts
+           pollution: An introduction into the environment of a substance that has harmful effect
+               slide: a structure with a smooth sloping surface for children to slide down.
+            complete: having all the necessary or appropriate parts
+          acceptable: able to be agreed on; suitable
+                dome: a rounded vault forming the roof of a building or structure.
+----------------------
+Item [0]: [dome][a rounded vault forming the roof of a building or structure.]
+Item [8]: [dome][a rounded vault forming the roof of a building or structure.]
+Item [9]: [][]
+******************************************************
+
+******************************************************
+* Testing the UniqueQueue of Pairs                   *
+******************************************************
+UniqueQueueue size: [5]
+----------------------
+| Dictionary Content |
+----------------------
+                dome: a rounded vault forming the roof of a building or structure.
+           pollution: An introduction into the environment of a substance that has harmful effect
+               slide: a structure with a smooth sloping surface for children to slide down.
+            complete: having all the necessary or appropriate parts
+          acceptable: able to be agreed on; suitable
+----------------------
+Item [1]: [pollution][An introduction into the environment of a substance that has harmful effect]
+Item [4]: [acceptable][able to be agreed on; suitable]
+Item [11]: [Empty Term][Empty Substitute]
+----------------------
+| Testing Pop        |
+----------------------
+
+Popped Item:                 dome: a rounded vault forming the roof of a building or structure.
+----------------------
+----------------------
+| Dictionary Content |
+----------------------
+           pollution: An introduction into the environment of a substance that has harmful effect
+               slide: a structure with a smooth sloping surface for children to slide down.
+            complete: having all the necessary or appropriate parts
+          acceptable: able to be agreed on; suitable
+----------------------
+******************************************************
+
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==238861== 
+==238861== HEAP SUMMARY:
+==238861==     in use at exit: 0 bytes in 0 blocks
+==238861==   total heap usage: 70 allocs, 70 frees, 84,671 bytes allocated
+==238861== 
+==238861== All heap blocks were freed -- no leaks are possible
+==238861== 
+==238861== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 02 Oct 2022 11:51:08 PM EDT

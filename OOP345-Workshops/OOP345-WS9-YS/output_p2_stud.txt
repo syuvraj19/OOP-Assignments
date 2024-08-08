@@ -1,0 +1,82 @@
+Script started on Sun 27 Nov 2022 10:14:11 PM EST
+==223443== Memcheck, a memory error detector
+==223443== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==223443== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==223443== Command: ws map.txt map.dat
+==223443== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Command Line: ws map.txt map.dat
+
+***Displaying original Map***
+W|<|>...---....|AHAHAHAHAHA---
+|<|>...---|^|...X|BBBBBB|....|
+|^|-|^|-.00....0..|.00....0..|
+||^CCC4567.....|^||..00|.0.0.|
+|^||...|^|...X|BBBBBB|.|X....|
+|^|------|^|-.00....0..|0----|
+|^|...X|BBB|^|-.00....0..|BBB|
+||^|-.00....0..|^CCCCCC......|
+|..12340000...|......1182APPLE
+|??-----X..|^|-.00....0..|...|
+---SEC|^|-.00....0..|RETS-----
+|^|------|^|-.00....0..|0----|
+
+***Enscribing Map and displaying cleared current Map***
+The map is empty!
+
+***Recalling Map and displaying current Map***
+W|<|>...---....|AHAHAHAHAHA---
+|<|>...---|^|...X|BBBBBB|....|
+|^|-|^|-.00....0..|.00....0..|
+||^CCC4567.....|^||..00|.0.0.|
+|^||...|^|...X|BBBBBB|.|X....|
+|^|------|^|-.00....0..|0----|
+|^|...X|BBB|^|-.00....0..|BBB|
+||^|-.00....0..|^CCCCCC......|
+|..12340000...|......1182APPLE
+|??-----X..|^|-.00....0..|...|
+---SEC|^|-.00....0..|RETS-----
+|^|------|^|-.00....0..|0----|
+
+***Finding treasure on current Map***
+***Found 5 treasure on current Map***
+
+The content of the binary file
+------------------------------
+File size in bytes: [376]
+01: [ 0c 00 00 00 00 00 00 00 1e 00 00 00 00 00 00 00 57 7c 3c 7c]
+02: [ 3e 2e 2e 2e 2d 2d 2d 2e 2e 2e 2e 7c 41 48 41 48 41 48 41 48]
+03: [ 41 48 41 2d 2d 2d 7c 3c 7c 3e 2e 2e 2e 2d 2d 2d 7c 5e 7c 2e]
+04: [ 2e 2e 58 7c 42 42 42 42 42 42 7c 2e 2e 2e 2e 7c 7c 5e 7c 2d]
+05: [ 7c 5e 7c 2d 2e 30 30 2e 2e 2e 2e 30 2e 2e 7c 2e 30 30 2e 2e]
+06: [ 2e 2e 30 2e 2e 7c 7c 7c 5e 43 43 43 34 35 36 37 2e 2e 2e 2e]
+07: [ 2e 7c 5e 7c 7c 2e 2e 30 30 7c 2e 30 2e 30 2e 7c 7c 5e 7c 7c]
+08: [ 2e 2e 2e 7c 5e 7c 2e 2e 2e 58 7c 42 42 42 42 42 42 7c 2e 7c]
+09: [ 58 2e 2e 2e 2e 7c 7c 5e 7c 2d 2d 2d 2d 2d 2d 7c 5e 7c 2d 2e]
+0a: [ 30 30 2e 2e 2e 2e 30 2e 2e 7c 30 2d 2d 2d 2d 7c 7c 5e 7c 2e]
+0b: [ 2e 2e 58 7c 42 42 42 7c 5e 7c 2d 2e 30 30 2e 2e 2e 2e 30 2e]
+0c: [ 2e 7c 42 42 42 7c 7c 7c 5e 7c 2d 2e 30 30 2e 2e 2e 2e 30 2e]
+0d: [ 2e 7c 5e 43 43 43 43 43 43 2e 2e 2e 2e 2e 2e 7c 7c 2e 2e 31]
+0e: [ 32 33 34 30 30 30 30 2e 2e 2e 7c 2e 2e 2e 2e 2e 2e 31 31 38]
+0f: [ 32 41 50 50 4c 45 7c 3f 3f 2d 2d 2d 2d 2d 58 2e 2e 7c 5e 7c]
+10: [ 2d 2e 30 30 2e 2e 2e 2e 30 2e 2e 7c 2e 2e 2e 7c 2d 2d 2d 53]
+11: [ 45 43 7c 5e 7c 2d 2e 30 30 2e 2e 2e 2e 30 2e 2e 7c 52 45 54]
+12: [ 53 2d 2d 2d 2d 2d 7c 5e 7c 2d 2d 2d 2d 2d 2d 7c 5e 7c 2d 2e]
+13: [ 30 30 2e 2e 2e 2e 30 2e 2e 7c 30 2d 2d 2d 2d 7c]
+------------------------------
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==223443== 
+==223443== HEAP SUMMARY:
+==223443==     in use at exit: 0 bytes in 0 blocks
+==223443==   total heap usage: 60 allocs, 60 frees, 113,547 bytes allocated
+==223443== 
+==223443== All heap blocks were freed -- no leaks are possible
+==223443== 
+==223443== For lists of detected and suppressed errors, rerun with: -s
+==223443== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Sun 27 Nov 2022 10:14:12 PM EST
